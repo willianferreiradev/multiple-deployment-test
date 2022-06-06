@@ -4,10 +4,12 @@ import { useEffect } from 'react'
 
 const Home: NextPage = () => {
   useEffect(() => {
-    console.log('Env', process.env)
+    setTimeout(() => {
+      console.log('Env', process.env.NEXT_PUBLIC_TITLE)
+    }, 5000);
   }, [])
   return (
-    <div>{process.env.TITLE || 'Texto padrão'}</div>
+    <div>{process.env.NEXT_PUBLIC_TITLE ? 'Texto padrão' : `${process.env.TITLE}`}</div>
   )
 }
 
