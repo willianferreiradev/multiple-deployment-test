@@ -9,6 +9,7 @@ const Container = styled.div`
   align-items: center;
   font-size: 30px;
   font-weight: bold;
+  font-family: sans-serif;
 `;
 
 const Home: NextPage = () => {
