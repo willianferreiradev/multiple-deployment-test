@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     }, 5000);
   }, [])
   return (
-    <div>{process.env.NEXT_PUBLIC_TITLE ? 'Texto padrão' : `${process.env.TITLE}`}</div>
+    <div>{process.env.NEXT_PUBLIC_TITLE}</div>
   )
 }
 
