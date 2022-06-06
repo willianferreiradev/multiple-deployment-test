@@ -10,6 +10,9 @@ const Container = styled.div`
   font-size: 30px;
   font-weight: bold;
   font-family: sans-serif;
+
+  background-color: #38A3A5;
+  color: #C7F9CC;
 `;
 
 const Home: NextPage = () => {
