@@ -15,6 +15,6 @@ As easy as this is, here's an example of how it really works
 - Be happy 😊
 
 ## Projects for testing
-- [Multiple Deploy Test 1](https://multiple-deploy-test-1.willianferreira.dev/){:target="_blank"}
-- [Multiple Deploy Test 2](https://multiple-deploy-test-2.willianferreira.dev/){:target="_blank"}
+- [Multiple Deploy Test 1](https://multiple-deploy-test-1.willianferreira.dev/)
+- [Multiple Deploy Test 2](https://multiple-deploy-test-2.willianferreira.dev/)
 
