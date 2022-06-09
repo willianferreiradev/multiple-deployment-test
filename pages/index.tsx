@@ -12,8 +12,8 @@ const Container = styled.div`
   font-weight: bold;
   font-family: sans-serif;
 
-  background-color: #38A3A5;
-  color: #C7F9CC;
+  background-color: ${process.env.NEXT_PUBLIC_BACKGROUND};
+  color: ${process.env.NEXT_PUBLIC_COLOR};
   text-align: center;
 
   > h1 {
